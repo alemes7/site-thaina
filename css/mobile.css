@@ -1,10 +1,57 @@
-@media screen and (max-width: 480px) {
-  .logo {
-    width: 50px;
-  }
+/* mobile.css */
 
-  .links button{
-    padding: 5px 10px;
-    
+body {
+    font-family: 'Poppins', sans-serif;
   }
-}
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 75px;
+    height: auto;
+  }
+  
+  .links button {
+    padding: 10px 20px;
+  }
+  
+  .content {
+    padding: 20px 10px;
+  }
+  
+  .title {
+    margin-bottom: 15px;
+  }
+  
+  .text {
+    margin-bottom: 20px;
+  }
+  
+  .brinco,
+  .anel,
+  .contato {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .logo {
+      width: 50px;
+    }
+  
+    .links button {
+      padding: 5px 10px;
+    }
+  }
+  
+    @media screen and (max-width: 425px) {
+        .logo {
+        width: 40px;
+        }
+    
+        .links button {
+        padding: 5px 5px;
+        }
+    }
