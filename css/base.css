@@ -1,0 +1,33 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #00ced1; /* Cor da borda verde-água */
+    border-radius: 10px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adicionando espaçamento entre os botões */
+}
+
+.links button {
+    text-decoration: none; /* Removendo sublinhado nos botões */
+    padding: 10px 20px;
+    border: 2px solid #00ced1; /* Cor da borda verde-água */
+    color: #00ced1;
+}
+
+.links button:hover {
+    background-color: #00ced1;
+    color: #fff;
+  }
+
+
+.container {
+    justify-content: center;
+}
