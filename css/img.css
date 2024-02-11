@@ -8,7 +8,18 @@
     height: 800px;
 }
 
-.anel{
-    width: 400px;
-    height: 200px;
+/* img.css */
+
+.produtos {
+  width: 100%;
+  max-width: 300px; /* Reduzindo o tamanho máximo das imagens */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
+
+.produtos:hover {
+  transform: scale(1.05);
+}
+
